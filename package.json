@@ -9,18 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "rsocket-core": "^0.0.29-alpha.0",
+    "rsocket-websocket-client": "^0.0.29-alpha.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@bob-park/prettier-config-bobpark": "0.0.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/rsocket-core": "^0.0.11",
+    "@types/rsocket-websocket-client": "^0.0.7",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13"
-  }
+    "typescript": "^5"
+  },
+  "prettier": "@bob-park/prettier-config-bobpark"
 }
