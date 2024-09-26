@@ -1,3 +1,12 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "@bob-park/bobpark"
+  ],
+  "rules": {
+    // common
+    "no-useless-return": "off",
+    "no-plusplus": "off",
+    "no-await-in-loop": "off"
+  },
+  "ignorePatterns": ["*.config.ts"]
 }
